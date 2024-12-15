@@ -20,9 +20,17 @@ func main() {
 		}
 	}
 
+	// loop in slice/array
 	names := []string{}
 
 	names = append(names, "bibek", "asmit", "jon")
-	for()
+	for index, value := range names {
+		fmt.Println(index, " ", value)
+	}
+
+	data := "bibek"
+	for index, char := range data {
+		fmt.Printf("Index is %d , and value is %c\n", index, char)
+	}
 
 }
