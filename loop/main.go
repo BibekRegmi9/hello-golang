@@ -9,6 +9,11 @@ func main() {
 		fmt.Println("Number is: ", i)
 	}
 
+	//range
+	for i := range 10 {
+		fmt.Println("Range number is: ", i)
+	}
+
 	// Infinite loop
 	counter := 0
 	for {

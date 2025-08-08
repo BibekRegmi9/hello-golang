@@ -30,4 +30,12 @@ func main() {
 		fmt.Printf("Key is %s and marks is %d\n", index, value)
 	}
 
+	// part 2
+	//creating a map
+	m := make(map[string]int)
+	m["id"] = 1
+	m["userId"] = 2
+
+	//get an element
+	fmt.Println(m["id"])
 }

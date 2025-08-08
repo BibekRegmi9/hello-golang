@@ -13,4 +13,13 @@ func main() {
 	} else {
 		fmt.Println("gg")
 	}
+
+	age := 25
+	if age == 24 {
+		fmt.Println("Age is 24")
+	} else if age < 24 {
+		fmt.Println("Age is less than 24")
+	} else {
+		fmt.Println("Focus")
+	}
 }
